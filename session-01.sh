@@ -1,13 +1,13 @@
 #!/bin/bash
 
-PERSON1=PERSON2
+PERSON1=Jack
 PERSON2=John
 
 
 echo "Hello this is my first shell script for practice"
 echo "$PERSON1:: Hey john what is the update"
 echo "$PERSON2:: Hi PERSON2 I am working on it"
-echo "$PERSON1:: Will it be completed by EOD"
+echo "$PERSON1:: Will it be completed by EOD?"
 echo "$PERSON2:: will get finished $PERSON2"
 
 
