@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PERSON1=Jack
+PERSON1=Jack #there should be no spaces inbetween variables
 PERSON2=John
 
 
