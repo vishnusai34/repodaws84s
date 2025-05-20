@@ -16,6 +16,6 @@ if [ $? -eq 0 ]
 then
     echo "nginx is installed .... SUCCESS"
 else
-    echo "Nginx is not installed "
+    echo "Nginx is not installed ..... FAILURE "
     exit 1
 fi     
