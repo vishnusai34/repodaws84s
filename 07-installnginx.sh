@@ -11,6 +11,7 @@ else
 fi
 
 dnf list installed nginx
+echo 
 
 if [ $? -ne 0 ]
 then
