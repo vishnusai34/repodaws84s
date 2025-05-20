@@ -48,5 +48,5 @@ then
     VALIDATE $? "python3"
 # $? - here it is command used to check the status of exit code status  whether it is success or failure sucess = 1 and failure 0-127    
 else
-    echo "python3 is already installed ..... $Y nothing is needed to install $N"        
+    echo -e "python3 is already installed ..... $Y nothing is needed to install $N"        
 fi    
