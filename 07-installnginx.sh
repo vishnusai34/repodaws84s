@@ -15,7 +15,7 @@ dnf list installed nginx
 if [$? -ne 0 ]
 then
     echo "Nginx is not installed ............going to install"
-    dnf install  nginx -y
+    dnf install nginx -y
 # $? - here it is command used to check the status of exit code status  whether it is success or failure sucess = 1 and failure 0-127 
     if [ $? -eq 0 ]
     then
