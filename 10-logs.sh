@@ -10,6 +10,10 @@ LOG_FOLDER="/var/log/shell_script_logs"
 SCRIPT_NAME="$(echo $0 | cut -d "." -f1)"
 LOG_FILE="$LOG_FOLDER/$SCRIPT_NAME.log"
 
+mkdir -p $LOG_FOLDER
+echo "Script started executing at: $(date)" &>>$LOG_FILE
+
+
 if [ $USERID -ne 0 ] # spacing is required between the brackets and if
 then 
     echo -e "$R ERROR: user doesnot have root access Please access via root user $N" &>>$LOG_FILE #indentation is must **********
