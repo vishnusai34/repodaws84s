@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if[ $USERID -nq 0]
+if[ $USERID -ne 0]
 then 
    echo " ERROR: user doesnot have root access Please access via root user"
    exit 1
