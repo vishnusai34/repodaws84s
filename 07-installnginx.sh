@@ -4,7 +4,7 @@ USERID=$(id -u)
 
 if[ $USERID -ne 0 ]
 then 
-   echo " ERROR: user doesnot have root access Please access via root user"
+   echo "ERROR: user doesnot have root access Please access via root user"
    exit 1
 else
   echo "you are running with root access"
