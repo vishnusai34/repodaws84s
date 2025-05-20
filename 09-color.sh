@@ -9,7 +9,7 @@ N="\e[0m"
 
 if [ $USERID -ne 0 ] # spacing is required between the brackets and if
 then 
-    echo -e " $R ERROR: user doesnot have root access Please access via root user $N"  #indentation is must **********
+    echo -e "$R ERROR: user doesnot have root access Please access via root user $N"  #indentation is must **********
     exit 1
 else
     echo -e "$G you are running with root access $N"
